@@ -9,3 +9,5 @@ print(salario)
 print(tipo)
 
 print("Nome:", nome, "Salário:", salario, "É casado?:", casado)
+
+print(isinstance(digito, float))
