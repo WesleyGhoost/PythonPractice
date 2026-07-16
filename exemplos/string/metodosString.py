@@ -12,7 +12,7 @@ print(lower_str)
 replaced_str = my_str.replace('hello', 'hi')
 print(replaced_str)
 
-split_str = my_str.split()
+split_str = my_str.split('\n')
 print(split_str)
 
 joined_str = ' '.join(my_str)
