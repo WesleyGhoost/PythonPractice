@@ -1,0 +1,45 @@
+SyntaxError:
+ Exemplo >
+    print("Hello, world!"
+
+ Explicação do erro >
+    "Esta linha está faltando um parêntese de fechamento. Python gera um SyntaxError
+    porque o código não segue as regras de sintaxe corretas."
+
+
+NameError:
+ Exemplo >
+    print(name)
+
+ Explicação do erro >
+    "Você está tentando imprimir uma variável que ainda não foi definida. Python
+    gera um NameError quando não consegue encontrar uma variável com esse nome."
+
+
+TypeError:
+ Exemplo >
+    5 + "5"
+
+ Explicação do erro >
+    "Você não pode somar um inteiro e uma string juntos. Python gera um TypeError
+    quando você tenta realizar uma operação em tipos de dados incompatíveis."
+
+
+IndexError:
+ Exemplo >
+    my_list = [1, 2, 3]
+    print(my_list[5])
+
+ Explicação do erro >
+    "Você está tentando acessar um índice que não existe na lista. Python gera um
+    IndexError quando você ultrapassa os limites."
+
+
+AttributeError:
+ Exemplo >
+    num = 42
+    num.append(5)
+
+ Explicação do erro >
+    "O objeto int não possui um método append(). Python gera um AttributeError quando
+    você tenta usar um método ou propriedade que não existe para esse tipo de dado."
