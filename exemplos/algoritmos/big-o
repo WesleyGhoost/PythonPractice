@@ -1,0 +1,44 @@
+O(1) "Complexidade de Tempo Constante":
+ Independentemente do tamanho da entrada, o tempo de execução segue o mesmo, de forma
+ constante.
+
+ - Exemplos: Verificar se um numero é par ou impar, estruturas de Pilha e Filas
+
+
+
+O(log n) "Complexidade de Tempo Logarítmica":
+ O tempo necessário pelo algoritmo aumenta lentamente conforme o tamanho
+ da entrada cresce.
+ Comum em problemas nos quais o tamanho do problema é repetidamente reduzido
+ por uma fração constante.
+
+ - Exemplo: Sistema de buscas como do Binary Search
+
+
+
+O(n) "Complexidade de Tempo Linear":
+ O tempo de execução de algoritmos com essa complexidade de tempo aumenta
+ proporcionalmente ao tamanho da entrada.
+
+ - Exemplo: loop for que itera por cada elemento de uma lista.
+
+
+
+O(n log n) "Complexidade de Tempo Logarítmico-Linear":
+ Complexidade de tempo comum de algoritmos de ordenação eficientes.
+
+ - Exemplos: Merge Sort e Quick Sort
+
+
+
+O(n²) "Complexidade de Tempo Quadrática":
+ O tempo de execução desses algoritmos aumenta quadraticamente em relação
+ ao tamanho da entrada, o que geralmente não é eficiente para problemas do mundo real.
+
+ - Exemplo: Loops aninhados
+
+
+
+O(2^n) "Complexidade de Tempo Exponencial" e
+O(n!) "Complexidade de Tempo Fatorial":
+ Ineficientes no mundo real.

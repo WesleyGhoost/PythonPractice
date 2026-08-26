@@ -1,0 +1,29 @@
+Pilhas: Segue como estrutura LIFO (last in, first out). Onde os elementos são
+alocados como uma pilha de pratos, um acima do outro, e o último elemento alocado é
+o primeiro elemento a sair.
+
+Push - Adiciona os elementos,
+Pop - Remove os elementos
+
+
+
+Filas: Segue como estrutura FIFO (first in, first out). Onde os elementos são
+alocados como em uma fila de supermercado.
+As pessoas que estão mais a frente na fila são removidos primeiro, e as que
+são adicionadas ficam logo atrás.
+
+Queue - Adiciona os elementos,
+Dequeue - Remove os elementos
+
+
+
+Singly Linked Lists: Uma lista encadeada de nós, onde um nó possui a referencia
+do nó seguinte. Começa em um nó com referencia Head, e finaliza com nó com referencia
+Tail.
+Pode adicionar novos nós no inicio,meio e fim com notação O(1)
+
+
+
+Doubly Linked List: Uma lista encadeada de nós, onde cada nó possui duas referencias,
+para o nó anterior e o nó posterior
+Pode ser iniciado pelo nó Tail.
