@@ -1,0 +1,15 @@
+Busca Linear: A busca linear começa no início de uma lista e itera por
+cada item até encontrar o valor alvo que está procurando.
+
+ - complexidade de tempo: O(n)
+ - complexidade de espaço: O(1)
+
+
+
+Busca Binária: A busca binária funciona dividindo a lista ao meio e verificando
+se o valor alvo está no meio da lista. Se o valor alvo estiver no meio da lista,
+o índice do valor alvo será retornado. Caso contrário, o algoritmo verifica se o
+valor alvo está na metade esquerda ou direita da lista.
+
+ - complexidade de tempo: O(log n)
+ - complexidade de espaço: O(1)

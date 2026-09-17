@@ -12,7 +12,7 @@ alocados como em uma fila de supermercado.
 As pessoas que estão mais a frente na fila são removidos primeiro, e as que
 são adicionadas ficam logo atrás.
 
-Queue - Adiciona os elementos,
+Enqueue - Adiciona os elementos,
 Dequeue - Remove os elementos
 
 
