@@ -1,3 +1,5 @@
+#Exercicio de Bissecção
+
 def square_root_bisection(target_value, tolerance=3, iterations=8):
     if target_value < 0:
         raise ValueError('Square root of negative number is not defined in real numbers')
