@@ -1,0 +1,14 @@
+-- Busca em largura (BFS): é um algoritmo que visita todos os nós vizinhos
+antes de passar para o próximo nível no grafo.
+
+Ele pode ser usado para encontrar o caminho mais curto entre dois nós em um grafo
+não ponderado porque ele analisa todos os nós em cada nível, então ele encontra o
+caminho com menos arestas primeiro.
+
+Este algoritmo é comumente implementado usando uma estrutura de dados de fila para
+acompanhar os nós que foram visitados. Filas seguem o método FIFO, onde o primeiro nó
+que foi adicionado à fila é o primeiro a ser removido.
+
+Aplicado em um gravo de Árvore, ele inicia no topo da árvore e conforme for passando
+por seus filhos, irá adicioná-los a fila e ir removendo os nós que já foram visitados,
+respeitando o nivel hierarquico

@@ -1,0 +1,18 @@
+-- Tentativas (tries): são estruturas de dados em árvore usadas para armazenar
+ um conjunto de strings.
+
+Tries também são conhecidos como prefix trees porque são muito eficientes para
+operações que exigem encontrar strings com base em seus prefixos.
+
+Cada nó na trie representa um único caractere de uma string. O nó raiz não representa
+nenhum caractere específico, então você pode considerá-lo como representando uma string
+vazia.
+
+À medida que a trie é percorrida a partir da raiz, o caminho até um nó define um
+prefixo específico. Para encontrar uma palavra, o prefixo é seguido até alcançar o nó
+com a palavra que está sendo procurada.
+
+Nós que representam palavras completas são atribuídos marcadores de fim de palavra.
+
+A complexidade de tempo no pior caso para a operação de busca é O(L), onde L é o
+comprimento da string que está sendo procurada.

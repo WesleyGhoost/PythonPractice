@@ -1,0 +1,50 @@
+-- O que são Grafos?:
+
+Grafos são estruturas de dados usadas para representar as conexões ou relacionamentos
+entre objetos ou entidades. Eles são frequentemente usados para modelar redes.
+Eles podem representar conexões entre usuários em uma plataforma de mídia social ou
+conexões entre cidades em uma rede rodoviária.
+
+Ele é constituido por nodos ou vértices, que são os objetos ou entidades que
+fazem parte da rede modelada pelo grafo, e por arestas, que são as conexões entre as
+entidades.
+
+
+
+-- Tipos:
+
+## Grafos Não Direcionados: são grafos onde as arestas não têm uma direção específica.
+Esse tipo de aresta é geralmente representado por uma linha reta entre os nós.
+
+
+## Grafos Dirigidos: grafos onde as arestas têm uma direção específica. As arestas de
+um grafo direcionado são frequentemente representadas como linhas retas que terminam com uma seta para indicar a direção.
+
+
+## Grafos Rotulados por Vértice: um grafo no qual cada nó está associado a um rótulo
+ou identificador além dos seus dados. Esses rótulos são usados para identificar os nós,
+representá-los visualmente e armazenar informações adicionais sobre eles.
+
+
+## Grafos Cíclicos: são grafos direcionados com pelo menos um ciclo. Um cycle é um
+caminho que você pode seguir pelas arestas de um grafo que o levará de volta ao nó
+inicial onde você começou.
+
+
+## Grafos Rotulados por Aresta: as arestas estão associadas a rótulos. Esses rótulos
+geralmente são desenhados ao lado de suas arestas correspondentes.
+
+
+## Grafos Ponderados: um tipo específico de grafo rotulado por arestas em que os
+rótulos nas arestas representam valores que podem ser comparados e usados para realizar
+operações aritméticas.
+Algumas arestas têm um peso maior, enquanto outras têm um peso menor. Esses pesos
+representam o "custo" da aresta.
+
+
+## Grafo Acíclico Dirigido: um grafo direcionado sem ciclos. Se você começar em um nó
+específico, não poderá voltar a ele por causa da direção das arestas.
+
+
+## Grafo Desconectado: Um grafo desconectado é um grafo com dois ou mais grupos de nós
+que não estão conectados por nenhuma aresta.

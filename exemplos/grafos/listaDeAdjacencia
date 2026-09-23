@@ -1,0 +1,32 @@
+-- Listas de Adjacência: um array ou dicionário que armazena todos os vizinhos
+de cada nó.
+
+Existem duas maneiras de implementar listas de adjacência:
+
+ - Como um array, onde cada índice representa um nó e a lista armazenada naquele índice
+ contém seus vizinhos.
+ - Como um dicionário, onde cada chave representa um nó e o valor associado a essa
+ chave (uma lista) contém seus vizinhos.]
+
+Têm uma complexidade de espaço O(V + E), onde V é o número de vértices (nós) e E é o
+número de arestas. Mas o processo de busca pode levar O(V) tempo no pior caso, já que
+pode ser necessário buscar em uma lista muito longa de vizinhos se o nó estiver
+conectado a todos os outros nós no grafo.
+
+
+Exemplo com dicionário:
+adjacency_list = {
+    'A': ['B', 'C', 'D'],
+    'B': ['A', 'D'],
+    'C': ['A'],
+    'D': ['A', 'B']
+}
+
+
+Exemplo com array e indice:
+adjacency_list = [
+    ['B', 'C', 'D'],  # visinhos de A (index 0)
+    ['A', 'D'],       # visinhos de B (index 1)
+    ['A'],            # visinhos de C (index 2)
+    ['A', 'B']        # visinhos de D (index 3)
+]

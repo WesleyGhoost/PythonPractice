@@ -1,0 +1,8 @@
+-- Busca em profundidade (DFS): segue cada ramo dos nós o mais profundamente
+possível antes de retroceder.
+
+é comumente usada para resolver quebra-cabeças com uma única solução, detectar ciclos
+em um grafo e encontrar componentes conectados do grafo.
+
+Este algoritmo pode ser implementado usando recursão ou uma estrutura de dados de
+pilha para acompanhar os nós visitados.

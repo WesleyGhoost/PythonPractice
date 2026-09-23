@@ -1,0 +1,33 @@
+-- Árvore: um tipo específico de grafo. Para que um grafo seja classificado
+como uma árvore, ele deve não ter loops ou ciclos e deve estar conectado
+(cada nó pode ser alcançado a partir de qualquer outro nó).
+
+Árvores são estruturas de dados não lineares que organizam nós em uma hierarquia,
+onde os nós podem ter filhos, irmãos e nós pais.
+
+- Nó Raiz: O nó raiz é o topo de uma árvore. É o único nó na árvore sem um nó pai.
+ Este é o nó onde começará a percorrer toda a estrutura de dados, com algoritmos de busca
+
+- Leaves: Uma leaf é um nó que não possui nós filhos. Você pode considerá-los como o
+ fim dos "ramos" da árvore.
+
+- Propriedades:
+   * Profundidade: o comprimento do caminho da raiz até esse nó em questão
+
+   * Altura: o comprimento do caminho desse nó até uma folha (leaf).
+
+   * Grau: o número de nós filhos que cada nó possui.
+
+
+
+-- Árvores binárias: um tipo de árvore na qual cada nó pode ter no máximo dois nós
+filhos, um nó filho à esquerda e um nó filho à direita.
+
+
+-- Árvore binária de busca: uma versão mais específica de uma árvore binária, com uma
+propriedade de ordenação muito particular, que estabelece que para cada nó, todos os
+valores em sua subárvore esquerda são menores que o valor do nó e todos os valores em
+sua subárvore direita são maiores que o valor do nó.
+
+Uma subárvore é uma seção de uma árvore que é uma árvore por si só. As subárvores
+esquerda e direita também devem ser árvores binárias de busca.
