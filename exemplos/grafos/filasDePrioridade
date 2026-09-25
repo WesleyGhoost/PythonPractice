@@ -1,0 +1,36 @@
+-- Filas de Prioridade: um tipo abstrato de dado (ADT) que funciona de maneira
+semelhante a uma fila ou pilha, mas com uma diferença fundamental.
+
+filas de prioridade levam em conta a "prioridade" dos elementos. A prioridade é usada
+para determinar qual elemento deve ser removido em seguida.
+
+Filas de prioridade são muito úteis para aplicações práticas como encontrar o caminho
+mais curto entre dois locais, agendar tarefas em sistemas operacionais, simular tráfego,
+comprimir dados e gerenciar redes.
+
+Elas são comumente implementadas usando uma estrutura de dados heap.
+
+
+
+-- Heap: uma estrutura de dados em árvore com uma propriedade muito específica chamada
+heap property. Essa propriedade determina a relação entre cada nó e seus filhos, com
+base no tipo de heap.
+
+Existem dois tipos principais de heaps:
+
+ * Heap máximo: o valor de cada nó é maior ou igual ao valor de seus filhos.
+
+ * Min-heap: em uma min-heap, o valor de cada nó é menor ou igual ao valor de seus
+ filhos.
+
+A propriedade heap é fundamental porque garante que o elemento máximo (ou mínimo)
+(dependendo do tipo de heap) esteja sempre no topo, o que facilita muito a remoção.
+
+- Complexidades de tempo média e no pior caso para inserir e extrair o valor mínimo ou
+máximo de uma heap (dependendo do tipo de heap) são logarítmicas, O(log n). Sua
+complexidade de espaço é linear O(n), onde n é o número de elementos que ele contém.
+
+- Operação heapify e tanto a busca quanto a exclusão de um elemento arbitrário têm
+complexidades médias e piores casos lineares de tempo O(n)
+
+- Operação Peek possui tempo constante O(1).
